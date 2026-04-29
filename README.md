@@ -51,6 +51,10 @@ Tools like **Docker** and **Kubernetes** are built using Go.
 
 ## ⚙️ Installation & Setup
 
+## ▶️ Quick Start
+
+Clone the repositoy.from [github](https://github.com/Yuongren/Beginner-s-Toolkit-with-GenAI).
+
 ### Step 1: Install Go
 
 sudo apt install golang-go
@@ -69,6 +73,15 @@ This program:
     * Displays a custom greeting
 
     * Includes conditional logic for a special user ("admin")
+
+## 📁 Project Structure
+```
+go-cli-app/
+├── main.go          # Main application code
+├── main_test.go     # Unit tests
+├── go.mod           # Go module file
+└── README.md        # This file
+```
 
 
 ### ▶️ Run the Program
@@ -176,31 +189,3 @@ Modular design is important
 Interfaces enable flexible I/O handling
 
 - Evaluation: Helped bridge theory and practice
-
-## 📁 Project Structure
-```
-go-cli-app/
-├── main.go          # Main application code
-├── main_test.go     # Unit tests
-├── go.mod           # Go module file
-└── README.md        # This file
-```
-
-## ▶️ Quick Start
-
-Clone the repositoy.from [github](https://github.com/Yuongren/Beginner-s-Toolkit-with-GenAI).
-
-Then Initialize module:
-```
-- go mod init cli-app
-```
-
-Then Run the program:
-```
-- go run main.go
-```
-
-Then run the test:
-```
-- go test -v
-```
