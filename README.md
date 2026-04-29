@@ -189,8 +189,18 @@ go-cli-app/
 ## ▶️ Quick Start
 
 Clone the repositoy.from [github](https://github.com/Yuongren/Beginner-s-Toolkit-with-GenAI).
-Then Initialize module 
+
+Then Initialize module:
 ```
 - go mod init cli-app
 ```
 
+Then Run the program:
+```
+- go run main.go
+```
+
+Then run the test:
+```
+- go test -v
+```
